@@ -1,0 +1,82 @@
+body{
+  background-color: #9ddfd3;
+}
+
+
+/**************TAG SELECTOR****************/
+h1{
+  color: #11698e;
+  font-size: 80px;
+}
+
+h2{
+  color: #7868e6;
+  font-size: 40px;
+  }
+
+  h3{
+    color: #f7f6e7;
+    font-size: 20px;
+    }
+    /*
+img:hover {
+  background-color: gold;
+}
+*/
+/***************CLASS SELECTOR******************/
+.shinchan{
+  background-color: red;
+}
+.circular{
+  border-radius: 100%;
+}
+.dorami{
+  background-color: green;
+}
+.circular{
+  border-radius: 100%;
+}
+.Contact-msg{
+  color: #f3f4ed;
+  font-size: 20px;
+}
+/***************ID SELECTOR*******************/
+#heading{
+  color: pink;
+}
+
+
+
+
+img{
+  position: relative;
+  left: 50px;
+}
+
+
+.btn {
+  background: #9ba6ad;
+  background-image: -webkit-linear-gradient(top, #9ba6ad, #11161a);
+  background-image: -moz-linear-gradient(top, #9ba6ad, #11161a);
+  background-image: -ms-linear-gradient(top, #9ba6ad, #11161a);
+  background-image: -o-linear-gradient(top, #9ba6ad, #11161a);
+  background-image: linear-gradient(to bottom, #9ba6ad, #11161a);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Georgia;
+  color: #f7f7f7;
+  font-size: 19px;
+  padding: 15px 15px 15px 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #181c1f;
+  background-image: -webkit-linear-gradient(top, #181c1f, #a3bac9);
+  background-image: -moz-linear-gradient(top, #181c1f, #a3bac9);
+  background-image: -ms-linear-gradient(top, #181c1f, #a3bac9);
+  background-image: -o-linear-gradient(top, #181c1f, #a3bac9);
+  background-image: linear-gradient(to bottom, #181c1f, #a3bac9);
+  text-decoration: none;
+}
